@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../images/starwars-logo.png';
+import logo from './starwars-logo.png';
 import {connect} from 'react-redux';
 import {toggleNav,closeNavbar} from '../components/actions/itemActions';
 
