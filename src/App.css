@@ -161,7 +161,7 @@ nav .logoBtn a p span{
  }
 
  .new-links-navigation{
-   background: teal;
+   background: #000;
    position: fixed;
    transform: translateX(0%);
    bottom: 0;
