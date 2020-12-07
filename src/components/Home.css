@@ -1,0 +1,30 @@
+.Home {
+  overflow-y: scroll;
+}
+
+.banner {
+  color: #BDA139;
+  letter-spacing: .2rem;
+  font-style: italic;
+  margin-top: 10px;
+  padding: 10px;
+  animation-name: texts;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  text-align: center;
+}
+
+@keyframes texts {
+  0% {
+      opacity: 1;
+      transform: scale(1);
+  }
+
+  50% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
