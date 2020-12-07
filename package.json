@@ -43,6 +43,10 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "gh-pages": "^2.2.0"
+=======
+    "gh-pages": "^2.1.1"
+>>>>>>> 59dfa830c05f21c153501b6dcfaad93b6a14afde
   }
 }
