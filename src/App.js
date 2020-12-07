@@ -6,7 +6,6 @@ import Products from './components/Products';
 import Details from './components/Details';
 import Home from './components/Home';
 import About from './components/About';
-import Contact from './components/Contact';
 import {Route, Switch} from 'react-router-dom';
 import {Provider} from 'react-redux';
 import store from './components/store';
@@ -34,7 +33,6 @@ function App() {
   <Route  path='/cart' component={Cart}  />
   <Route  path='/about' component={About}  />
   <Route  path='/details/:id' component={Details}  />
-  <Route  path='/contact' component={Contact}  />
   </Switch>
   
   

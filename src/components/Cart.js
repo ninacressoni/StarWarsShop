@@ -68,10 +68,10 @@ useEffect(()=>{
       <div className="cart-results">
          <h3>Product Details</h3>
 
-        <h4>Shipping:{props.item.total>=90?<span className="free"> FREE</span>:`+${props.item.shipping}`} </h4>
+        <h4>Shipping:{props.item.total>=2000?<span className="free"> FREE</span>:`+${props.item.shipping}`} </h4>
                 <h4>Price:  $<span>{props.item.total}</span></h4>
 
-                <h4>Total Price: <span> ${props.item.total>=90?props.item.total:props.item.total + props.item.shipping}</span></h4>
+                <h4>Total Price: <span> ${props.item.total>=2000?props.item.total:props.item.total + props.item.shipping}</span></h4>
          </div>
 
 
