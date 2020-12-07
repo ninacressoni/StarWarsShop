@@ -6,7 +6,7 @@ import {GET_ITEMS,  ADD_ITEMS, DELETE_ITEM, TOGGLE_NAV,
 const initialState = {
     items:[ {
         _id:1,
-        img:'./images/lightsaber.png',
+        img:'images/lightsaber.png',
         title:'Light Saber',
         price:'570',
         category:'weapon',
@@ -17,7 +17,7 @@ const initialState = {
 
     {
         _id:2,
-        img:'./images/blaster.png',
+        img:'images/blaster.png',
         title:'Rifle Blaster F-11D',
         price:'630',
         category:'weapon',
@@ -28,7 +28,7 @@ const initialState = {
 
     {
         _id:3,
-        img:'../images/x-wing.png',
+        img:'images/x-wing.png',
         title:'X-Wing',
         price:'3520',
         category:'spacecraft',
